@@ -22,3 +22,5 @@ function Stack(){
         console.log(items.toString());
     }
 }
+
+// [111,'+',222+'*'+123]

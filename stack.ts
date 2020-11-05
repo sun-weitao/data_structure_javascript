@@ -9,3 +9,9 @@ class Stack<T>{
     isEmpty = ():boolean => this.items.length == 0;
     clear = () => this.items = [];
 }
+
+const stack = new Stack<number>();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+console.log(stack.size());
